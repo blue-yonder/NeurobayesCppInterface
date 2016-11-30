@@ -41,7 +41,9 @@ Additional third-party libraries are required to do so.
 
 The NeuroBayes Core library is optimized for a maximum number of nodes. The
 maximum number of nodes is printed by the NeuroBayes Teacher at the start of
-the program e.g. execute the minimaltest executable and search for NB_MAXNODE.
+the program e.g. execute the minimaltest executable and search for `NB_MAXNODE`
+in its output.
+
 The default number is 100. If your library is optimized for a different number
 of nodes, you have to provide the correct number using an environment variable
 named `MAXNODE_PREPRO`. during the build process e.g.
